@@ -56,7 +56,7 @@ def has_a_person(words):
   return False
 
 
-inputDir = "{}/input".format(os.getcwd())
+inputDir = sys.argv[1]
 outputDir = "./output"
 
 if os.path.exists(outputDir):
